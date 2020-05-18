@@ -60,7 +60,7 @@ def renderContact():
         "Thanks for contacting me!",
         sender= "roche.trey@gmail.com",
         recipients = [emailBack],
-        body = "Dear " + firstname + ",\n\nThank you for contacting me! I've recieved your message and will get back to you shortly.\n\nBest,\n\nTrey Roche"
+        body = "Dear " + firstname + ",\n\nThank you for contacting me! I've received your message and will get back to you shortly.\n\nBest,\n\nTrey Roche"
     )
 
     return app.send_static_file("sent.html")
