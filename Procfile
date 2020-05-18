@@ -1,1 +1,1 @@
-web: gunicorn app:treys-portfolio-blog
+web: gunicorn app:api

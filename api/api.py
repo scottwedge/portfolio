@@ -26,9 +26,9 @@ mail = Mail(app)
 
 #Routes
 
-@app.route('/', defaults={'path':''})
-def Home(path):
-    return render_template("index.html")
+@app.route('/')
+def Home():
+    return
 
 
 @app.route('/blog/posts')
